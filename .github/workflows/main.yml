@@ -2,7 +2,7 @@ name: Run ESP32 Script
 
 on:
   schedule:
-    - cron: '40 16 8 6 *'
+   - cron: '0 17 8 6 *'
   workflow_dispatch:
 
 jobs:
