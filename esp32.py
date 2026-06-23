@@ -446,7 +446,7 @@ for on_schedule in on_schedules:
 
 payload = ";".join(all_data)
 
-WEBAPP_URL = "https://script.google.com/macros/s/AKfycbwl3wB1PnIoICk-Xo8sb46LmNpy16OCfmCb8ZyQn0MX6LqWGeOUbRz5oryp5uyb-U8rAQ/exec"
+WEBAPP_URL = "https://script.google.com/macros/s/AKfycbysBGATXmmyk8n1tnEKWW4o_7d9vs-9ck6wE3nAgY0WH1MeOAMPg1pq13xV1d1QDhoI/exec"
 
 r = requests.get(
     WEBAPP_URL,
