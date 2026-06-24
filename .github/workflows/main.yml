@@ -1,5 +1,5 @@
-name: Run ESP32 Script
-
+#name: Run ESP32 Script
+name: Run ESP321 Script
 on:
   schedule:
   - cron: '30 6 8 6 *'
@@ -21,4 +21,5 @@ jobs:
           pip install pandas numpy scikit-learn matplotlib requests
 
       - name: Run script
-        run: python esp32.py
+        #run: python esp32.py
+        run: python esp321.py
