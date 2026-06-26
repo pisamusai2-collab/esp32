@@ -24,4 +24,4 @@ jobs:
       - name: Run script
        # run: python esp32.py
         #run: python esp321.py
-          run: python esp3210.py
+        run: python esp3210.py
