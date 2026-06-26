@@ -4,7 +4,7 @@ import pandas as pd
 sheet_id = "1Zv9YRItmnVUGIA3jAXwn0slMQ1hteWSl7POKcyv7dRg"
 gid = "0"
 
-url = f"https://script.google.com/macros/s/AKfycbyxcJQg4F3Ud6_iW7mh4kMIv2zYBcqZ7o7doAbNPyuj4zjDOoY9fPj3QzUcPsBN3iys/exec"
+url = f"https://script.google.com/macros/s/AKfycbwkLi72Ut2OJC_W-4KEj7-wzdX2GTTjAyCbRTgm-3ng1SoorG_I1fdBSqhbPxhtfr3Z/exec"
 
 df = pd.read_csv(url)
 #======================VERIFY======================================
